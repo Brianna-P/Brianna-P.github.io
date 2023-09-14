@@ -1,0 +1,89 @@
+h1 {
+    color : rgb(21, 124, 0);
+    text-align: center;
+    font-size: large;
+    font-family: "Monaco", monospace;;
+    text-align: left;
+    line-height: 1.7;
+    position:relative;
+    left: 125px;
+    top: 125px;
+    } .bracketed {
+        color:#fab338
+    } .name{
+        color : rgb(160, 214, 246);
+        font-size: 65px;
+        line-height: 2.0;
+    } .clickable{
+        color : rgb(196, 0, 0);
+        text-decoration: underline;
+    }.bolded{
+        color : rgb(212, 255, 206);
+        text-decoration: bold;
+    }.copyToClipboard{
+        color : rgb(255, 227, 117);
+    }
+
+body{
+    background-color: rgb(3, 3, 20);
+    } a {
+        position: relative;
+        top: 135px;
+        left: 110px;
+    }
+    button {
+        background-color:transparent;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        cursor:pointer;
+        color:#18ab29;
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+    }.wrapper {
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        left: 70%;
+      }.wrapper2{
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        left: 85%;
+      }.vl {
+        border-left: 4px solid rgb(0, 48, 0);
+        height: 510px;
+        position: absolute;
+        left: 8%;
+        margin-left: -3px;
+        top: 16%; 
+      }.dot {
+        height: 20px;
+        width: 20px;
+        top: 25%;
+        left: 5%;
+        background-color: #f00000;
+        border-radius: 50%;
+        position: absolute;
+      }.commentOut {
+        color : rgb(21, 124, 0);
+        font-size: x-large;
+        font-family: "Monaco", monospace;;
+        line-height: 2.0;
+        top: 5%;
+        left: 67%;
+        position: absolute;
+      }.commentIn {
+        color : rgb(21, 124, 0);
+        font-size: x-large;
+        font-family: "Monaco", monospace;;
+        line-height: 2.0;
+        top: 5%;
+        left: 92%;
+        position: absolute;
+      }
+    
+    
