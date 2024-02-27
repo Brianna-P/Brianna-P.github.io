@@ -1,0 +1,110 @@
+h1 {
+    color: rgb(21, 124, 0);
+    font-size: large;
+    font-family: "Monaco", monospace;
+    line-height: 1.7;
+    position: relative;
+    left: 125px;
+    top: 125px;
+  }
+  
+  
+  .bracketed {
+      color: #fab338;
+  }
+  
+  .name {
+      color: rgb(160, 214, 246);
+      font-size: 65px;
+      line-height: 2.0;
+      position: relative;
+  }.dot {
+      height: 20px;
+      width: 20px;
+      background-color: #f00000;
+      border-radius: 50%;
+      position: absolute;
+      left: -50px; /* Adjust as needed */
+      top: 20%;
+      transform: translateY(-50%);
+  }.dot2 {
+    height: 20px;
+    width: 20px;
+    background-color: #f00000;
+    border-radius: 50%;
+    position: absolute;
+    left: -50px; /* Adjust as needed */
+    top: 7%;
+    transform: translateY(-50%);
+  }.line {
+    width: 4px;
+    height: 100%; /* Adjust as needed */
+    background-color: rgb(0, 48, 0);
+    position: absolute;
+    left: -20px; /* Adjust as needed */
+    top: 0;
+  }
+  
+  .clickable {
+      color: rgb(196, 0, 0);
+      text-decoration: underline;
+  }
+  
+  .bolded {
+      color: rgb(212, 255, 206);
+      font-weight: bold;
+  }
+  
+  .copyToClipboard {
+      color: rgb(255, 227, 117);
+  }
+  
+  body {
+      overflow: scroll;
+      background-color: rgb(3, 3, 20);
+  }
+  
+  
+  a {
+      position: relative;
+      top: 135px;
+      left: 110px;
+  }
+  .button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .button {
+      background-color: transparent;
+      border-radius: 28px;
+      border: 1px solid #18ab29;
+      cursor: pointer;
+      color: #18ab29;
+      font-family: Arial;
+      font-size: 17px;
+      padding: 16px 31px;
+      text-decoration: none;
+  }
+  
+  .button-wrap {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: Arial;
+    font-size: 17px;
+    color: #18ab29;
+  }
+  
+  .button-wrap::before {
+    content: "/*";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .button-wrap::after {
+    content: "*/";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
